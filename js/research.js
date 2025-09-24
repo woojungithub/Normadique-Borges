@@ -1,9 +1,11 @@
+import { recommendations } from './recommendations.js';
+
 document.addEventListener('DOMContentLoaded', () => {
     // 요소들을 선택하는 부분
     const travelCheckbox = document.getElementById('travel');
     const foodCheckbox = document.getElementById('food');// '어떤 여행지를...' 문단
-    const temperatureQuestion = document.querySelector('.mb-4 > p'); 
-    const foodQuestion = document.querySelector('.mb-4-2 > p');
+    const temperatureQuestion = document.getElementById('temperatureQuestion');
+    const foodQuestion = document.getElementById('foodQuestion');
 
     // 'temperature-options' ID를 사용해 정확한 요소를 선택
     const temperatureCheckboxes = document.getElementById('temperature-options'); 
@@ -24,23 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const confirmButton = document.getElementById('confirmButton');
     const recommendationSection = document.getElementById('recommendation');
     const recommendedText = document.getElementById('rec-sec');
-
-    const recommendations = [
-    {
-        name: "러시아",
-        type: "travel",
-        info: "러시아는 특유의 웅장한 건축물과 이색적 문화로 유명합니다.",
-        image: "image/russia.jpg",
-        conditions: ["cold"]
-    },
-    {
-        name: "불가리아",
-        type: "travel",
-        info: "불가리아는 따뜻한 지중해성 기후와 관광으로 유명합니다.",
-        image: "image/bulgaria.jpg",
-        conditions: ["warm"]
-    }
-    ];
+    
 
     // '여행지' 체크박스에 따라 하위 체크박스들을 숨기거나 보이게 하는 기능
     travelCheckbox.addEventListener('change', () => {
