@@ -1,5 +1,3 @@
-import { recommendations } from './recommendations.js';
-
 document.addEventListener('DOMContentLoaded', () => {
     // 요소들을 선택하는 부분
     const travelCheckbox = document.getElementById('travel');
@@ -92,95 +90,101 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // '확인' 버튼 클릭 시 로직
     confirmButton.addEventListener('click', () => {
-        const travelChecked = travelCheckbox.checked;
-        const foodChecked = foodCheckbox.checked;
+        fetch('../travelData.json') // JSON 파일 로드
+            .then(response => response.json())
+            .then(recommendations => {
+                const travelChecked = travelCheckbox.checked;
+                const foodChecked = foodCheckbox.checked;
 
-        const warmChecked = warmCheckbox.checked;
-        const coldChecked = coldCheckbox.checked;
-        const hotChecked = hotCheckbox.checked;
+                const warmChecked = warmCheckbox.checked;
+                const coldChecked = coldCheckbox.checked;
+                const hotChecked = hotCheckbox.checked;
 
-        const meatChecked = meatCheckbox.checked;
-        const vetChecked = vetCheckbox.checked;
-        const specialChecked = specialCheckbox.checked;
+                const meatChecked = meatCheckbox.checked;
+                const vetChecked = vetCheckbox.checked;
+                const specialChecked = specialCheckbox.checked;
 
-        const selectedConditions = [];
+                const selectedConditions = [];
 
-        recommendationSection.innerHTML = '';
-        recommendationSection.classList.remove('hidden');
+                recommendationSection.innerHTML = '';
+                recommendationSection.classList.remove('hidden');
 
-        // 조건 필터링.
-        if (travelChecked) {
-            if (allCheckbox_tem.checked || (coldChecked && warmChecked && hotChecked)) {
-                selectedConditions.push("cold", "warm", "hot");
-            } else {
-                if (coldChecked) selectedConditions.push("cold");
-                if (warmChecked) selectedConditions.push("warm");
-                if (hotChecked) selectedConditions.push("hot");
-            }
-        }
+                // 조건 필터링.
+                if (travelChecked) {
+                    if (allCheckbox_tem.checked || (coldChecked && warmChecked && hotChecked)) {
+                        selectedConditions.push("cold", "warm", "hot");
+                    } else {
+                        if (coldChecked) selectedConditions.push("cold");
+                        if (warmChecked) selectedConditions.push("warm");
+                        if (hotChecked) selectedConditions.push("hot");
+                    }
+                }
 
-        if (foodChecked) {
-            if (allCheckbox_food.checked || (vetChecked && meatChecked && specialChecked)) {
-                selectedConditions.push("vet", "meat", "special");
-            } else {
-                if (vetChecked) selectedConditions.push("vet");
-                if (meatChecked) selectedConditions.push("meat");
-                if (specialChecked) selectedConditions.push("special");
-            }
-        }
+                if (foodChecked) {
+                    if (allCheckbox_food.checked || (vetChecked && meatChecked && specialChecked)) {
+                        selectedConditions.push("vet", "meat", "special");
+                    } else {
+                        if (vetChecked) selectedConditions.push("vet");
+                        if (meatChecked) selectedConditions.push("meat");
+                        if (specialChecked) selectedConditions.push("special");
+                    }
+                }
 
-        //안 골랐을 때.
-        if (selectedConditions.length === 0) {
-            alert("원하는 검색어를 선택해주세요");
-            recommendationSection.classList.add('hidden');
-            return;
-        }
+                //안 골랐을 때.
+                if (selectedConditions.length === 0) {
+                    alert("원하는 검색어를 선택해주세요");
+                    recommendationSection.classList.add('hidden');
+                    return;
+                }
 
-        // 선택된 조건에 맞는 추천 목록을 필터링.
-        const filteredRecommendations = recommendations.filter(item => {
-            return item.conditions.some(condition => selectedConditions.includes(condition));
-        });
+                // 선택된 조건에 맞는 추천 목록을 필터링.
+                const filteredRecommendations = recommendations.filter(item => {
+                    return item.conditions.some(condition => selectedConditions.includes(condition));
+                });
 
 
-        if (travelCheckbox.checked && foodCheckbox.checked) {
-            recommendedText.textContent = " 추천 여행지 & 음식 목록";
-        } else if (travelCheckbox.checked) {
-            recommendedText.textContent = " 추천 여행지 목록";
-        } else {
-            recommendedText.textContent = " 추천 음식 목록";
-        }
-        recommendationSection.appendChild(recommendedText);
+                if (travelCheckbox.checked && foodCheckbox.checked) {
+                    recommendedText.textContent = " 추천 여행지 & 음식 목록";
+                } else if (travelCheckbox.checked) {
+                    recommendedText.textContent = " 추천 여행지 목록";
+                } else {
+                    recommendedText.textContent = " 추천 음식 목록";
+                }
+                recommendationSection.appendChild(recommendedText);
 
-        // 새 카드 생성성
-        if (filteredRecommendations.length > 0) {
-            filteredRecommendations.forEach(item => {
-                const card = document.createElement('div');
-                card.classList.add('recommendation-card');
+                // 새 카드 생성성
+                if (filteredRecommendations.length > 0) {
+                    filteredRecommendations.forEach(item => {
+                        const card = document.createElement('div');
+                        card.classList.add('recommendation-card');
 
-                // 카드 내부 HTML 구성
-                card.innerHTML = `
-                <div class="max-w-2xl w-full bg-white shadow-lg rounded-lg border border-blue-500 p-4">
-                    <h3 class="card-title">${item.name}</h3>
-                    <img src="${item.image}" alt="${item.name}" class="card-image">
-                    <p class="card-text">${item.info}</p>
-                    <a href="#" class="link">자세히 보기</a>
-                </div>
-                `;
+                        // 카드 내부 HTML 구성
+                        card.innerHTML = `
+                        <div class="max-w-2xl w-full bg-white shadow-lg rounded-lg border border-blue-500 p-4">
+                            <h3 class="card-title">${item.name}</h3>
+                            <img src="${item.image}" alt="${item.name}" class="card-image">
+                            <p class="card-text">${item.info}</p>
+                            <a href="#" class="link">자세히 보기</a>
+                        </div>
+                        `;
 
-                recommendationSection.appendChild(card);
+                        recommendationSection.appendChild(card);
+                    });
+                } else {
+                    // 필터링 결과가 없을 때의 메시지
+                    const noResult = document.createElement('p');
+                    noResult.textContent = "해당 조건에 맞는 추천 목록이 없습니다.";
+                    noResult.classList.add('text-center');
+                    recommendationSection.appendChild(noResult);
+                }
+                const mainContainer = document.querySelector('.max-w-2xl');
+                if (mainContainer) {
+                    mainContainer.classList.add('expanded-container');
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching travel data:', error);
+                alert('여행 정보를 불러오는 데 실패했습니다.');
             });
-        } else {
-            // 필터링 결과가 없을 때의 메시지
-            const noResult = document.createElement('p');
-            noResult.textContent = "해당 조건에 맞는 추천 목록이 없습니다.";
-            noResult.classList.add('text-center');
-            recommendationSection.appendChild(noResult);
-        }
-        const mainContainer = document.querySelector('.max-w-2xl');
-        if (mainContainer) {
-            mainContainer.classList.add('expanded-container');
-        }
-        
     });
-
 });
