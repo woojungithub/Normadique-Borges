@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
                 recommendationSection.appendChild(recommendedText);
 
-                // 새 카드 생성성
+                // 새 카드 생성
                 if (filteredRecommendations.length > 0) {
                     filteredRecommendations.forEach(item => {
                         const card = document.createElement('div');
