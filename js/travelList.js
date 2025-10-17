@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
-    fetch('./travelData.json') // JSON 파일 로드
+    fetch('/Normadique-Borges/travelData.json') // JSON 파일 로드
         .then(response => response.json())
         .then(recommendations => {
             // 'travel' 타입인 항목만 필터링
