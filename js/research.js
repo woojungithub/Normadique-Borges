@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // '확인' 버튼 클릭 시 로직
     confirmButton.addEventListener('click', () => {
-        fetch('../travelData.json') // JSON 파일 로드
+        fetch('/Normadique-Borges/travelData.json') // JSON 파일 로드
             .then(response => response.json())
             .then(recommendations => {
                 const travelChecked = travelCheckbox.checked;
