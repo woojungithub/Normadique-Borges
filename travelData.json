@@ -3,84 +3,84 @@
     "name": "아이슬란드",
     "type": "travel",
     "info": "북유럽의 화산섬으로, 오로라와 온천이 유명합니다.",
-    "image": "",
+    "image": "image/iceland.jpg",
     "conditions": ["cold"]
   },
   {
     "name": "하카르르 (상어 발효 음식)",
     "type": "food",
     "info": "아이슬란드의 전통적인 발효 상어 고기 요리입니다.",
-    "image": "",
+    "image": "image/hakarl.jpg",
     "conditions": ["meat"]
   },
   {
     "name": "스키르(치즈 요거트)",
     "type": "food",
     "info": "아이슬란드에서 인기 있는 유제품으로, 치즈와 요거트의 중간 형태입니다.",
-    "image": "",
+    "image": "image/ski.jpg",
     "conditions": ["special"]
   },
   {
     "name": "노르웨이",
     "type": "travel",
     "info": "피오르드와 바이킹의 역사를 간직한 북유럽 국가입니다.",
-    "image": "",
+    "image": "image/norway.jpg",
     "conditions": ["cold"]
   },
   {
     "name": "루티피스크(발효한 대구)",
     "type": "food",
     "info": "노르웨이의 전통적인 발효 대구 요리입니다.",
-    "image": "",
+    "image": "image/lutipisk.jpg",
     "conditions": ["meat"]
   },
   {
     "name": "순록 스테이크 (노르웨이)",
     "type": "food",
     "info": "노르웨이의 특색 있는 육류 요리로 순록 고기를 사용합니다.",
-    "image": "",
+    "image": "image/steak caravana.jpg",
     "conditions": ["meat"]
   },
   {
     "name": "핀란드",
     "type": "travel",
     "info": "호수와 숲의 나라로, 산타클로스의 고향으로도 알려져 있습니다.",
-    "image": "",
+    "image": "image/finland.jpg",
     "conditions": ["cold"]
   },
   {
     "name": "카라얄란피라카(호밀 파이)",
     "type": "food",
     "info": "핀란드 카렐리아 지역의 전통적인 호밀 파이입니다.",
-    "image": "",
+    "image": "image/fin1.jpg",
     "conditions": ["vet"]
   },
   {
     "name": "순록 스튜 (핀란드)",
     "type": "food",
     "info": "핀란드의 순록 고기를 이용한 따뜻한 스튜 요리입니다.",
-    "image": "",
+    "image": "image/fin2.jpg",
     "conditions": ["meat"]
   },
   {
     "name": "스웨덴",
     "type": "travel",
     "info": "혁신과 자연이 어우러진 북유럽의 강국입니다.",
-    "image": "",
+    "image": "image/sweden.jpg",
     "conditions": ["cold"]
   },
   {
     "name": "스뤼스트뢰밍(발효 청어)",
     "type": "food",
     "info": "스웨덴의 악명 높은 강렬한 냄새의 발효 청어 요리입니다.",
-    "image": "",
+    "image": "image/swedish1.jpg",
     "conditions": ["meat"]
   },
   {
     "name": "크네케브뢰드(건빵)",
     "type": "food",
     "info": "스웨덴의 딱딱하고 얇은 호밀빵(건빵)입니다.",
-    "image": "",
+    "image": "image/swedish2.jpg",
     "conditions": ["vet"]
   },
   {
@@ -94,147 +94,147 @@
     "name": "홀로뎨쯔 (젤라틴 고기)",
     "type": "food",
     "info": "러시아의 전통적인 젤라틴으로 굳힌 고기 요리입니다.",
-    "image": "",
+    "image": "image/rus1.jpg",
     "conditions": ["meat"]
   },
   {
     "name": "코트 아래 청어 (청어 절임)",
     "type": "food",
     "info": "러시아의 층층이 쌓은 청어 절임 샐러드입니다.",
-    "image": "",
+    "image": "image/rus2.jpg",
     "conditions": ["vet"]
   },
   {
     "name": "폴란드",
     "type": "travel",
     "info": "유럽 중부에 위치하며 깊은 역사와 문화를 지닌 나라입니다.",
-    "image": "",
+    "image": "image/poland.jpg",
     "conditions": ["warm"]
   },
   {
     "name": "츠에르니나(오리 피 수프)",
     "type": "food",
     "info": "폴란드의 전통적인 오리 피를 넣어 만든 수프입니다.",
-    "image": "",
+    "image": "image/pol1.jpg",
     "conditions": ["special", "meat"]
   },
   {
     "name": "플라키(소 내장 수프)",
     "type": "food",
     "info": "폴란드식 소 내장(곱창) 수프입니다.",
-    "image": "",
+    "image": "image/pol2.jpg",
     "conditions": ["meat"]
   },
   {
     "name": "독일",
     "type": "travel",
     "info": "맥주와 소시지로 유명하며, 자동차 산업의 강국입니다.",
-    "image": "",
+    "image": "image/germany.jpg",
     "conditions": ["warm"]
   },
   {
     "name": "자우마겐(돼지 위장)",
     "type": "food",
     "info": "독일 팔츠 지역의 돼지 위장에 고기와 감자를 채워 만든 요리입니다.",
-    "image": "",
+    "image": "image/dutch1.jpg",
     "conditions": ["meat"]
   },
   {
     "name": "바이즈 부어스트(소시지)",
     "type": "food",
     "info": "독일 바이에른 지방의 흰 소시지입니다.",
-    "image": "",
+    "image": "image/dutch2.jpg",
     "conditions": ["meat"]
   },
   {
     "name": "프랑스",
     "type": "travel",
     "info": "예술, 패션, 그리고 미식의 중심지인 유럽 국가입니다.",
-    "image": "",
+    "image": "image/france.jpg",
     "conditions": ["warm"]
   },
   {
     "name": "에스카르고",
     "type": "food",
     "info": "프랑스의 달팽이 요리입니다.",
-    "image": "",
+    "image": "image/fr1.jpg",
     "conditions": ["special"]
   },
   {
     "name": "푸아그라",
     "type": "food",
     "info": "프랑스의 거위나 오리의 간을 이용한 고급 요리입니다.",
-    "image": "",
+    "image": "image/fr2.jpg",
     "conditions": ["meat"]
   },
   {
     "name": "그리스",
     "type": "travel",
     "info": "고대 문명의 발상지로, 아름다운 섬들과 지중해성 기후가 특징입니다.",
-    "image": "",
+    "image": "image/greece.jpg",
     "conditions": ["hot", "warm"]
   },
   {
     "name": "코코레츠(양 내장 꼬치)",
     "type": "food",
     "info": "그리스의 양 내장을 감아 구운 꼬치 요리입니다.",
-    "image": "",
+    "image": "image/greek1.jpg",
     "conditions": ["meat"]
   },
   {
     "name": "문어 식초 절임",
     "type": "food",
     "info": "그리스에서 즐겨 먹는 문어를 식초에 절인 요리입니다.",
-    "image": "",
+    "image": "image/greek2.jpg",
     "conditions": ["meat", "special"]
   },
   {
     "name": "스페인",
     "type": "travel",
     "info": "정열적인 문화와 태양의 나라, 이베리아 반도의 국가입니다.",
-    "image": "",
+    "image": "image/spain.jpg",
     "conditions": ["hot"]
   },
   {
-    "name": "페르세베스(따개비 요리)",
+    "name": "페르세베스(거북손 요리)",
     "type": "food",
-    "info": "스페인의 특이한 해산물 요리인 따개비입니다.",
-    "image": "",
+    "info": "스페인의 거북의 손으로 만든 요리입니다.",
+    "image": "image/spain1.jpg",
     "conditions": ["meat", "special"]
   },
   {
     "name": "앙굴라스(새끼 장어 요리)",
     "type": "food",
     "info": "스페인의 귀한 새끼 장어(실뱀장어) 요리입니다.",
-    "image": "",
+    "image": "image/spain2.jpg",
     "conditions": ["meat"]
   },
   {
     "name": "필리핀",
     "type": "travel",
     "info": "수천 개의 섬으로 이루어진 동남아시아의 열대 국가입니다.",
-    "image": "",
+    "image": "image/philippines.jpg",
     "conditions": ["hot"]
   },
   {
     "name": "발루트 (부화 직전 오리알)",
     "type": "food",
     "info": "필리핀의 부화 직전의 오리알을 삶은 길거리 음식입니다.",
-    "image": "",
+    "image": "image/phil1.jpg",
     "conditions": ["special", "hot"]
   },
   {
     "name": "바나나 케첩",
     "type": "food",
     "info": "필리핀에서 토마토 대신 바나나를 사용하여 만든 케첩입니다.",
-    "image": "",
+    "image": "image/Banana_ketchup.jpg",
     "conditions": ["special"]
   },
   {
     "name": "태국",
     "type": "travel",
     "info": "불교 문화와 화려한 왕궁, 그리고 길거리 음식으로 유명한 나라입니다.",
-    "image": "",
+    "image": "image/thai.jpg",
     "conditions": ["hot"]
   },
   {
@@ -255,301 +255,301 @@
     "name": "캄보디아",
     "type": "travel",
     "info": "앙코르와트와 같은 고대 유적지로 유명한 동남아 국가입니다.",
-    "image": "",
+    "image": "image/cambodia.jpg",
     "conditions": ["hot"]
   },
   {
     "name": "놈 반촉(크메르 누들)",
     "type": "food",
     "info": "캄보디아의 대표적인 크메르식 국수 요리입니다.",
-    "image": "",
+    "image": "image/kmer noodle.jpg",
     "conditions": ["vet"]
   },
   {
     "name": "거미 튀김",
     "type": "food",
     "info": "캄보디아에서 별미로 여겨지는 튀긴 거미 요리입니다.",
-    "image": "",
+    "image": "image/spiderman.jpg",
     "conditions": ["special"]
   },
   {
     "name": "몽골",
     "type": "travel",
     "info": "광활한 초원과 유목 문화가 특징인 중앙아시아 국가입니다.",
-    "image": "",
+    "image": "image/mongolia.jpg",
     "conditions": ["warm", "cold"]
   },
   {
     "name": "보드그(말고기 육포)",
     "type": "food",
     "info": "몽골의 말린 말고기 육포입니다.",
-    "image": "",
+    "image": "image/jerk meat.jpg",
     "conditions": ["meat"]
   },
   {
     "name": "호르혹 (돌을 달궈 굽는 고기)",
     "type": "food",
     "info": "몽골의 돌을 달구어 양고기나 염소고기를 굽는 전통 요리입니다.",
-    "image": "",
+    "image": "image/horhok.jpg",
     "conditions": ["meat"]
   },
   {
     "name": "중국",
     "type": "travel",
     "info": "광대한 영토와 다양한 민족, 그리고 찬란한 역사를 지닌 동아시아 국가입니다.",
-    "image": "",
+    "image": "image/china.jpg",
     "conditions": ["warm", "cold"]
   },
   {
     "name": "피단(발효 오리알)",
     "type": "food",
     "info": "중국의 삭힌 오리알 요리입니다.",
-    "image": "",
+    "image": "image/duck egg.jpg",
     "conditions": ["special"]
   },
   {
     "name": "해파리 샐러드",
     "type": "food",
     "info": "중국에서 즐겨 먹는 차가운 해파리 무침 요리입니다.",
-    "image": "",
+    "image": "image/jellyfish.jpg",
     "conditions": ["special"]
   },
   {
     "name": "우즈벡",
     "type": "travel",
     "info": "실크로드의 중심지였던 중앙아시아의 역사적인 나라입니다.",
-    "image": "",
+    "image": "image/uzbekistan.jpg",
     "conditions": ["warm"]
   },
   {
     "name": "타슈켄트 만두",
     "type": "food",
     "info": "우즈베키스탄 타슈켄트 지역의 특별한 만두입니다.",
-    "image": "",
+    "image": "image/tashukent.jpg",
     "conditions": ["special", "vet"]
   },
   {
     "name": "플로프(양고기 볶음밥)",
     "type": "food",
     "info": "우즈베키스탄의 대표적인 양고기 볶음밥 요리입니다.",
-    "image": "",
+    "image": "image/plof.jpg",
     "conditions": ["special"]
   },
   {
-    "name": "터키",
+    "name": "튀르키예",
     "type": "travel",
     "info": "동양과 서양의 문화가 교차하는 유라시아 국가입니다.",
-    "image": "",
+    "image": "image/turkey.jpg",
     "conditions": ["warm", "hot"]
   },
   {
     "name": "사르마 (양배추 포도알 요리)",
     "type": "food",
-    "info": "터키의 양배추나 포도잎에 밥과 고기를 싸서 만든 요리입니다.",
-    "image": "",
+    "info": "튀르키예의 양배추나 포도잎에 밥과 고기를 싸서 만든 요리입니다.",
+    "image": "image/turkey1.jpg",
     "conditions": ["vet"]
   },
   {
     "name": "돌마",
     "type": "food",
-    "info": "터키를 비롯한 중동 지역에서 채소나 잎에 속을 채워 만든 요리입니다.",
-    "image": "",
+    "info": "튀르키예를 비롯한 중동 지역에서 채소나 잎에 속을 채워 만든 요리입니다.",
+    "image": "image/turkey2.jpg",
     "conditions": ["vet"]
   },
   {
     "name": "볼리비아",
     "type": "travel",
     "info": "남아메리카 내륙 국가로, 고산 지대의 문화가 독특합니다.",
-    "image": "",
+    "image": "image/bolivia.jpg",
     "conditions": ["cold"]
   },
   {
     "name": "실판초(전통음식)",
     "type": "food",
     "info": "볼리비아의 밥, 고기, 계란 등이 들어가는 전통 음식입니다.",
-    "image": "",
+    "image": "image/silpancho.jpg",
     "conditions": ["special"]
   },
   {
     "name": "페루",
     "type": "travel",
     "info": "잉카 문명의 유적지와 안데스 산맥이 있는 남아메리카 국가입니다.",
-    "image": "",
+    "image": "image/peru.jpg",
     "conditions": ["hot"]
   },
   {
     "name": "꾸이",
     "type": "food",
     "info": "페루의 구이 또는 튀김 형태로 조리되는 기니피그 요리입니다.",
-    "image": "",
+    "image": "image/kui.jpg",
     "conditions": ["meat"]
   },
   {
     "name": "알파카 스테이크",
     "type": "food",
     "info": "페루의 알파카 고기를 이용한 스테이크입니다.",
-    "image": "",
+    "image": "image/steak alpaku.jpg",
     "conditions": ["meat"]
   },
   {
     "name": "콜롬비아",
     "type": "travel",
     "info": "커피와 다채로운 자연환경으로 유명한 남아메리카 국가입니다.",
-    "image": "",
+    "image": "image/comlombia.jpg",
     "conditions": []
   },
   {
     "name": "레초나(통돼지 요리)",
     "type": "food",
     "info": "콜롬비아의 속을 채워 오븐에 통째로 구운 돼지 요리입니다.",
-    "image": "",
+    "image": "image/comlumbia1.jpg",
     "conditions": ["meat"]
   },
   {
     "name": "몬동고(소 내장 스튜)",
     "type": "food",
     "info": "콜롬비아를 비롯한 라틴 아메리카의 소 내장 스튜입니다.",
-    "image": "",
+    "image": "image/mondongo.jpg",
     "conditions": ["meat", "special"]
   },
   {
     "name": "브라질",
     "type": "travel",
     "info": "축구와 삼바의 나라, 아마존 강 유역을 품은 거대한 남아메리카 국가입니다.",
-    "image": "",
+    "image": "image/brazil.jpg",
     "conditions": ["hot"]
   },
   {
     "name": "피라냐 수프",
     "type": "food",
     "info": "브라질의 피라냐 생선을 이용한 수프입니다.",
-    "image": "",
+    "image": "image/piranya soup.jpg",
     "conditions": ["special"]
   },
   {
     "name": "카우보이 스테이크",
     "type": "food",
     "info": "브라질의 전통적인 소고기 스테이크 요리입니다.",
-    "image": "",
+    "image": "image/cowboy steak.jpg",
     "conditions": ["meat"]
   },
   {
     "name": "멕시코",
     "type": "travel",
     "info": "고대 마야와 아즈텍 문명의 역사를 지닌 북아메리카 국가입니다.",
-    "image": "",
+    "image": "image/mexico.jpg",
     "conditions": ["hot", "warm"]
   },
   {
     "name": "에스카몰",
     "type": "food",
     "info": "멕시코의 개미 유충을 이용한 특이한 요리입니다.",
-    "image": "",
+    "image": "image/mexican2.jpg",
     "conditions": ["special"]
   },
   {
     "name": "타코류 음식들",
     "type": "food",
     "info": "멕시코의 대중적인 토르티야 요리입니다.",
-    "image": "",
+    "image": "image/taco.jpg",
     "conditions": ["vet", "meat"]
   },
   {
     "name": "세비체 (멕시코)",
     "type": "food",
     "info": "멕시코에서 즐기는 해산물을 레몬이나 라임에 절인 요리입니다.",
-    "image": "",
+    "image": "image/mexican1.jpg",
     "conditions": ["special"]
   },
   {
     "name": "호주",
     "type": "travel",
     "info": "독특한 야생 동식물과 대자연을 가진 남반구의 대륙 국가입니다.",
-    "image": "",
+    "image": "image/australia.jpg",
     "conditions": ["warm"]
   },
   {
     "name": "캥거루 스테이크",
     "type": "food",
     "info": "호주의 별미로 캥거루 고기를 이용한 스테이크입니다.",
-    "image": "",
+    "image": "image/kangaroo steak.jpg",
     "conditions": ["meat"]
   },
   {
     "name": "악어 햄버거",
     "type": "food",
     "info": "호주에서 악어 고기를 넣어 만든 햄버거입니다.",
-    "image": "",
+    "image": "image/croc burger.jpg",
     "conditions": ["meat"]
   },
   {
     "name": "위칭티 그럽",
     "type": "food",
     "info": "호주의 애벌레를 이용한 전통 음식입니다.",
-    "image": "",
+    "image": "image/hoju3.jpg",
     "conditions": ["special"]
   },
   {
     "name": "이집트",
     "type": "travel",
     "info": "고대 피라미드와 나일강을 중심으로 한 북아프리카 국가입니다.",
-    "image": "",
+    "image": "image/egypt.jpg",
     "conditions": ["hot"]
   },
   {
     "name": "페시크(발효 망둑어)",
     "type": "food",
     "info": "이집트의 소금에 절여 발효시킨 망둑어(생선) 요리입니다.",
-    "image": "",
+    "image": "image/egypt1.jpg",
     "conditions": ["special"]
   },
   {
     "name": "하맘 마흐시(비둘기 구이)",
     "type": "food",
     "info": "이집트의 속을 채워 구운 비둘기 요리입니다.",
-    "image": "",
+    "image": "image/egypt2.jpg",
     "conditions": ["meat"]
   },
   {
     "name": "에티오피아",
     "type": "travel",
     "info": "독립적인 문화를 지닌 동아프리카의 고원 국가입니다.",
-    "image": "",
+    "image": "image/ethiopia.jpg",
     "conditions": ["hot"]
   },
   {
     "name": "인제라",
     "type": "food",
     "info": "에티오피아의 주식인 신맛이 나는 팬케이크 형태의 빵입니다.",
-    "image": "",
+    "image": "image/eth1.jpg",
     "conditions": ["vet"]
   },
   {
     "name": "키트포(양고기 육회)",
     "type": "food",
     "info": "에티오피아의 향신료를 첨가한 양고기 육회입니다.",
-    "image": "",
+    "image": "image/eth2.jpg",
     "conditions": ["meat"]
   },
   {
     "name": "남아프리카 공화국",
     "type": "travel",
     "info": "다양한 문화와 대자연을 가진 아프리카 대륙 최남단의 국가입니다.",
-    "image": "",
+    "image": "image/south.jpg",
     "conditions": ["hot"]
   },
   {
     "name": "모파네 웜",
     "type": "food",
     "info": "남아프리카에서 식용으로 즐겨 먹는 모파네 나무 애벌레입니다.",
-    "image": "",
+    "image": "image/south1.jpg",
     "conditions": ["special"]
   },
   {
     "name": "악어 스튜 (남아프리카 공화국)",
     "type": "food",
     "info": "남아프리카의 악어 고기를 이용한 스튜 요리입니다.",
-    "image": "",
+    "image": "image/south2.jpg",
     "conditions": ["special"]
   }
 ]
