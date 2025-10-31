@@ -241,14 +241,14 @@
     "name": "대왕 전갈꼬치",
     "type": "food",
     "info": "태국의 길거리에서 볼 수 있는 전갈을 튀긴 꼬치입니다.",
-    "image": "",
+    "image": "image/thai1.jpg",
     "conditions": ["special"]
   },
   {
     "name": "대나무 벌레튀김",
     "type": "food",
     "info": "태국의 인기 있는 곤충 튀김 간식입니다.",
-    "image": "",
+    "image": "image/thai2.jpg",
     "conditions": ["special"]
   },
   {
