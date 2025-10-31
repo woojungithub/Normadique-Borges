@@ -395,14 +395,14 @@
     "name": "콜롬비아",
     "type": "travel",
     "info": "커피와 다채로운 자연환경으로 유명한 남아메리카 국가입니다.",
-    "image": "image/comlombia.jpg",
+    "image": "image/colombia.jpg",
     "conditions": []
   },
   {
     "name": "레초나(통돼지 요리)",
     "type": "food",
     "info": "콜롬비아의 속을 채워 오븐에 통째로 구운 돼지 요리입니다.",
-    "image": "image/comlumbia1.jpg",
+    "image": "image/columbia1.jpg",
     "conditions": ["meat"]
   },
   {
